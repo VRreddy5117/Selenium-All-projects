@@ -1,0 +1,204 @@
+[
+   {
+      "line":1,
+      "elements":[
+         {
+            "start_timestamp":"2020-02-03T10:04:11.148Z",
+            "before":[
+               {
+                  "result":{
+                     "duration":7485325400,
+                     "status":"passed"
+                  },
+                  "match":{
+                     "location":"Hooks.beforeScenario(Scenario)"
+                  }
+               }
+            ],
+            "line":4,
+            "name":"Verify user should be navigated till payment gateway page",
+            "description":"",
+            "id":"user-should-be-navigated-till-payment-gateway-page;verify-user-should-be-navigated-till-payment-gateway-page",
+            "type":"scenario",
+            "keyword":"Scenario",
+            "steps":[
+               {
+                  "result":{
+                     "duration":49578009800,
+                     "status":"passed"
+                  },
+                  "line":5,
+                  "name":"I visit the Potterybarn website as a guest user",
+                  "match":{
+                     "location":"UIRegression.iVisitThePotterybarnWebsiteAsAGuestUser()"
+                  },
+                  "keyword":"Given "
+               },
+               {
+                  "result":{
+                     "duration":9089101800,
+                     "status":"passed"
+                  },
+                  "line":6,
+                  "name":"I should search for \"sheets\" in the home page",
+                  "match":{
+                     "arguments":[
+                        {
+                           "val":"\"sheets\"",
+                           "offset":20
+                        }
+                     ],
+                     "location":"UIRegression.iShouldSearchForInTheHomePage(String)"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":8751722200,
+                     "status":"passed"
+                  },
+                  "line":7,
+                  "name":"I should click on one of the sheets in the search results page",
+                  "match":{
+                     "location":"UIRegression.iShouldClickOnOneOfTheSheetsInTheSearchResultsPage()"
+                  },
+                  "keyword":"And "
+               },
+               {
+                  "result":{
+                     "duration":5324092400,
+                     "status":"passed"
+                  },
+                  "line":8,
+                  "name":"I should select \"size\" in the add to bag page",
+                  "match":{
+                     "arguments":[
+                        {
+                           "val":"\"size\"",
+                           "offset":16
+                        }
+                     ],
+                     "location":"UIRegression.iShouldSelectInTheAddToBagPage(String)"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":5266924400,
+                     "status":"passed"
+                  },
+                  "line":9,
+                  "name":"I should select \"Color\"",
+                  "match":{
+                     "arguments":[
+                        {
+                           "val":"\"Color\"",
+                           "offset":16
+                        }
+                     ],
+                     "location":"UIRegression.iShouldSelect(String)"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":15891993300,
+                     "status":"passed"
+                  },
+                  "line":10,
+                  "name":"I should update pincode in the shipping options section",
+                  "match":{
+                     "location":"UIRegression.iShouldUpdatePincodeInTheShippingOptionsSection()"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":5160117800,
+                     "status":"passed"
+                  },
+                  "line":11,
+                  "name":"I should click on Add to Bag page",
+                  "match":{
+                     "location":"UIRegression.iShouldClickOnAddToBagPage()"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":8243096300,
+                     "status":"passed"
+                  },
+                  "line":12,
+                  "name":"I should click on checkout button",
+                  "match":{
+                     "location":"UIRegression.iShouldClickOnCheckoutButton()"
+                  },
+                  "keyword":"And "
+               },
+               {
+                  "result":{
+                     "duration":6899645800,
+                     "status":"passed"
+                  },
+                  "line":13,
+                  "name":"I should click on checkout in the shopping bag page",
+                  "match":{
+                     "location":"UIRegression.iShouldClickOnCheckoutInTheShoppingBagPage()"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":6994069500,
+                     "status":"passed"
+                  },
+                  "line":14,
+                  "name":"I should perform guest checkout in the checkout section",
+                  "match":{
+                     "location":"UIRegression.iShouldPerformGuestCheckoutInTheCheckoutSection()"
+                  },
+                  "keyword":"Then "
+               },
+               {
+                  "result":{
+                     "duration":1197241500,
+                     "status":"passed"
+                  },
+                  "line":15,
+                  "name":"I should enter new address in the shipping address section",
+                  "match":{
+                     "location":"UIRegression.iShouldEnterNewAddressInTheShippingAddressSection()"
+                  },
+                  "keyword":"And "
+               },
+               {
+                  "result":{
+                     "duration":5087644800,
+                     "status":"passed"
+                  },
+                  "line":16,
+                  "name":"I should click on continue button",
+                  "match":{
+                     "location":"UIRegression.iShouldClickOnContinueButton()"
+                  },
+                  "keyword":"Then "
+               }
+            ],
+            "tags":[
+               {
+                  "name":"@akhil_Pottery"
+               }
+            ]
+         }
+      ],
+      "name":"User should be navigated till payment gateway page",
+      "description":"",
+      "id":"user-should-be-navigated-till-payment-gateway-page",
+      "keyword":"Feature",
+      "uri":"file:features/Potterybarn.feature",
+      "tags":[
+
+      ]
+   }
+]
