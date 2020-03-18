@@ -5,7 +5,7 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
 
-public class JSONComp {
+public class JSONCompMain {
 
     public static void main(String[] args) {
 
@@ -24,6 +24,7 @@ public class JSONComp {
 
             //convert json to string
             String json1 = jsonObject.toJSONString();
+            System.out.println(json1);
             String json2 = jsonObj2.toJSONString();
 
             JsonComparison comparison = new JsonComparison();

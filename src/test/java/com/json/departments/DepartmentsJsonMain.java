@@ -7,7 +7,7 @@ import org.json.simple.parser.JSONParser;
 import java.io.FileReader;
 import java.util.*;
 
-public class DepartmentsJsonRead {
+public class DepartmentsJsonMain {
 
     public static void main(String[] args) {
 

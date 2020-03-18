@@ -51,27 +51,7 @@ public class ProductInfo {
     private long totalProducts;
     private long currentPage;
     private long totalPages;
-
-    public ProductInfo(String image1) {
-
-        this.image1 = image1;
-    }
-
-    public String getName1() {
-        return name1;
-    }
-
-    public void setName1(String name1) {
-        this.name1 = name1;
-    }
-
-    public String getImage1() {
-        return image1;
-    }
-
-    public void setImage1(String image1) {
-        this.image1 = image1;
-    }
+    
 
     public ProductInfo(boolean ack, String message, String id, double price, double basePrice, String promoEndDate, double pricePer, String sellByWeight,
                        String averageWeight, String maxWeight, String upc, boolean edited, long versionid, String lineadded, String aisleId,
@@ -130,6 +110,9 @@ public class ProductInfo {
         this.totalProducts = totalProducts;
         this.currentPage = currentPage;
         this.totalPages = totalPages;
+    }
+
+    public ProductInfo(String id, String name, String img, double price, double basePrice) {
     }
 
     public boolean isAck() {
