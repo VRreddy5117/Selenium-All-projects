@@ -19,8 +19,8 @@ public class Example1 {
 
            org.json.simple. JSONArray ar = (org.json.simple.JSONArray) ob1;
             System.out.println("array in file is : " + ar);
-            JSONArray ar1 = (JSONArray) obj2;
-            System.out.println("array in file2 is :" +ar1);
+//            JSONArray ar1 = (JSONArray) obj2;
+  //          System.out.println("array in file2 is :" +ar1);
             JSONArray arr1 = (JSONArray) ob1;
             System.out.println(arr1);
             JSONArray POJO2 = new JSONArray();

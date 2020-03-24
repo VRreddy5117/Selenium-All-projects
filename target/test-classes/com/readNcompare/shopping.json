@@ -1,0 +1,16 @@
+{
+   "shopping_list":{
+      "996386":{
+         "id":996386,
+         "label":"My 1st shopping list",
+         "current":true,
+         "nb_reference":6
+      },
+      "888540":{
+         "id":888540,
+         "label":"My 2nd shopping list",
+         "current":false,
+         "nb_reference":2
+      }
+   }
+}
